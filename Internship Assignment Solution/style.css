@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+/* Navigation */
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left:5px;
+}
+
+.logoimg{
+    height:90px;
+    width: 90px;
+}
+
+/* Navigation Items */
+
+.items ul{
+    /* color: white; */
+    display: flex;
+    justify-content:center;
+    align-self:center;
+    list-style: none;
+}
+
+.items ul li{
+    font-size:30px;
+    /* color: white; */
+    display: flex;
+    justify-content:center;
+    align-self:center;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.lastitem{
+    margin-right:20px
+}
+
+/* Main Content */
+
+.heading{
+    display: flex;
+    justify-content:center;
+    align-self:center;
+    margin-top:20px;
+}
+
+.containers{
+    margin-top:30px;
+}
+
+.box1{
+    display: flex;
+    margin: 19px;
+    background-color:rgb(218, 218, 218);
+    border-radius:15px;
+}
+
+.lphoto{
+    height: 150px;
+    width: 200px;
+}
+
+.codingimg{
+    margin-top:10px;
+    height:100%;
+    width: 100%;
+}
+
+.boxs{
+    display: flex;
+}
+
+.title{
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.description{
+    color:grey;
+    font-size: 14px;
+    margin-left:-2px;
+    margin-right:5px;
+    padding: 5px;
+}
+
+.interested-btn{
+    border: none;
+    background-color: rgb(142, 142, 142);
+    border-radius:10px;
+    padding:10px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
