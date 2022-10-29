@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black; */
-    /* color: white; */
 }
 
 /* Navigation */
@@ -18,6 +16,7 @@
     align-items: center;
     justify-content:space-between;
     margin-left:5px;
+    cursor: pointer;
 }
 
 .logoimg{
@@ -28,11 +27,11 @@
 /* Navigation Items */
 
 .items ul{
-    /* color: white; */
     display: flex;
     justify-content:center;
     align-self:center;
     list-style: none;
+    cursor: pointer;
 }
 
 .items ul li{
@@ -108,4 +107,5 @@
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
