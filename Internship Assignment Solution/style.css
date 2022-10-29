@@ -20,8 +20,10 @@
 }
 
 .logoimg{
-    height:90px;
-    width: 90px;
+    margin-top: 8px;
+    margin-left:8px;
+    height:60px;
+    width: 100px;
 }
 
 /* Navigation Items */
@@ -36,7 +38,6 @@
 
 .items ul li{
     font-size:30px;
-    /* color: white; */
     display: flex;
     justify-content:center;
     align-self:center;
@@ -74,9 +75,10 @@
 }
 
 .codingimg{
-    margin-top:10px;
-    height:100%;
-    width: 100%;
+    margin-top:15px;
+    margin-left:10px;
+    height:150px;
+    width:150px;
 }
 
 .boxs{
